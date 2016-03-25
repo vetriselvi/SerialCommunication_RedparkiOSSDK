@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FDF19441B16AC7A00160565 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDF19431B16AC7A00160565 /* libRscMgrUniv.a */; };
+		7F2FB3541AD710E100265DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FB3531AD710E100265DE1 /* main.m */; };
+		7F2FB3571AD710E100265DE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FB3561AD710E100265DE1 /* AppDelegate.m */; };
+		7F2FB35A1AD710E100265DE1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FB3591AD710E100265DE1 /* MainViewController.m */; };
+		7F2FB35D1AD710E100265DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FB35B1AD710E100265DE1 /* Main.storyboard */; };
+		7F2FB35F1AD710E100265DE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FB35E1AD710E100265DE1 /* Images.xcassets */; };
+		7F2FB3621AD710E100265DE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FB3601AD710E100265DE1 /* LaunchScreen.xib */; };
+		7FE469241ADC56CE008617F5 /* SerialConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE469231ADC56CE008617F5 /* SerialConfigViewController.m */; };
+		7FECF8E81AD72D5A0058429E /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FECF8E71AD72D5A0058429E /* ExternalAccessory.framework */; };
+		7FF32EB31AD74929008D72B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF32EB21AD74929008D72B3 /* UIKit.framework */; };
+		7FF32EB51AD74936008D72B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF32EB41AD74936008D72B3 /* Foundation.framework */; };
+		7FF32EB71AD7493F008D72B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF32EB61AD7493F008D72B3 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FDF19431B16AC7A00160565 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRscMgrUniv.a; path = ../lib/libRscMgrUniv.a; sourceTree = "<group>"; };
+		7F2FB34E1AD710E100265DE1 /* Redpark Serial Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Redpark Serial Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2FB3521AD710E100265DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F2FB3531AD710E100265DE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F2FB3551AD710E100265DE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F2FB3561AD710E100265DE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F2FB3581AD710E100265DE1 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7F2FB3591AD710E100265DE1 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7F2FB35C1AD710E100265DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F2FB35E1AD710E100265DE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F2FB3611AD710E100265DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7F2FB36C1AD710E100265DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F2FB36D1AD710E100265DE1 /* RedparkSerialDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedparkSerialDemoTests.m; sourceTree = "<group>"; };
+		7FAFBAD91B0C0D9E005D5342 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRscMgrUniv.a; path = "../Redpark Serial SDK/lib/libRscMgrUniv.a"; sourceTree = "<group>"; };
+		7FE469221ADC56CE008617F5 /* SerialConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialConfigViewController.h; sourceTree = "<group>"; };
+		7FE469231ADC56CE008617F5 /* SerialConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialConfigViewController.m; sourceTree = "<group>"; };
+		7FECF8E71AD72D5A0058429E /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		7FECF8E91AD72D5A0058429E /* RedparkSerialDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RedparkSerialDemo.entitlements; sourceTree = "<group>"; };
+		7FF32EB21AD74929008D72B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FF32EB41AD74936008D72B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FF32EB61AD7493F008D72B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F2FB34B1AD710E100265DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDF19441B16AC7A00160565 /* libRscMgrUniv.a in Frameworks */,
+				7FF32EB71AD7493F008D72B3 /* CoreGraphics.framework in Frameworks */,
+				7FF32EB51AD74936008D72B3 /* Foundation.framework in Frameworks */,
+				7FF32EB31AD74929008D72B3 /* UIKit.framework in Frameworks */,
+				7FECF8E81AD72D5A0058429E /* ExternalAccessory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F2FB3451AD710E100265DE1 = {
+			isa = PBXGroup;
+			children = (
+				7FECF8E71AD72D5A0058429E /* ExternalAccessory.framework */,
+				7F4EA7F31AD85517004D3DBD /* Frameworks */,
+				7F2FB3501AD710E100265DE1 /* RedparkSerialDemo */,
+				7F2FB36A1AD710E100265DE1 /* RedparkSerialDemoTests */,
+				7F2FB34F1AD710E100265DE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F2FB34F1AD710E100265DE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F2FB34E1AD710E100265DE1 /* Redpark Serial Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F2FB3501AD710E100265DE1 /* RedparkSerialDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7FECF8E91AD72D5A0058429E /* RedparkSerialDemo.entitlements */,
+				7F2FB3551AD710E100265DE1 /* AppDelegate.h */,
+				7F2FB3561AD710E100265DE1 /* AppDelegate.m */,
+				7F2FB3581AD710E100265DE1 /* MainViewController.h */,
+				7F2FB3591AD710E100265DE1 /* MainViewController.m */,
+				7FE469221ADC56CE008617F5 /* SerialConfigViewController.h */,
+				7FE469231ADC56CE008617F5 /* SerialConfigViewController.m */,
+				7F2FB35B1AD710E100265DE1 /* Main.storyboard */,
+				7F2FB35E1AD710E100265DE1 /* Images.xcassets */,
+				7F2FB3601AD710E100265DE1 /* LaunchScreen.xib */,
+				7F2FB3511AD710E100265DE1 /* Supporting Files */,
+			);
+			path = RedparkSerialDemo;
+			sourceTree = "<group>";
+		};
+		7F2FB3511AD710E100265DE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F2FB3521AD710E100265DE1 /* Info.plist */,
+				7F2FB3531AD710E100265DE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F2FB36A1AD710E100265DE1 /* RedparkSerialDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F2FB36D1AD710E100265DE1 /* RedparkSerialDemoTests.m */,
+				7F2FB36B1AD710E100265DE1 /* Supporting Files */,
+			);
+			path = RedparkSerialDemoTests;
+			sourceTree = "<group>";
+		};
+		7F2FB36B1AD710E100265DE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F2FB36C1AD710E100265DE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F4EA7F31AD85517004D3DBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FDF19431B16AC7A00160565 /* libRscMgrUniv.a */,
+				7FAFBAD91B0C0D9E005D5342 /* libRscMgrUniv.a */,
+				7FF32EB61AD7493F008D72B3 /* CoreGraphics.framework */,
+				7FF32EB41AD74936008D72B3 /* Foundation.framework */,
+				7FF32EB21AD74929008D72B3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F2FB34D1AD710E100265DE1 /* Redpark Serial Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2FB3711AD710E100265DE1 /* Build configuration list for PBXNativeTarget "Redpark Serial Demo" */;
+			buildPhases = (
+				7F2FB34A1AD710E100265DE1 /* Sources */,
+				7F2FB34B1AD710E100265DE1 /* Frameworks */,
+				7F2FB34C1AD710E100265DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Redpark Serial Demo";
+			productName = "BT-RS232";
+			productReference = 7F2FB34E1AD710E100265DE1 /* Redpark Serial Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F2FB3461AD710E100265DE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Bramson Welch & Assoc.";
+				TargetAttributes = {
+					7F2FB34D1AD710E100265DE1 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = J786XP3253;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7F2FB3491AD710E100265DE1 /* Build configuration list for PBXProject "Redpark Serial Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F2FB3451AD710E100265DE1;
+			productRefGroup = 7F2FB34F1AD710E100265DE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F2FB34D1AD710E100265DE1 /* Redpark Serial Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F2FB34C1AD710E100265DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2FB35D1AD710E100265DE1 /* Main.storyboard in Resources */,
+				7F2FB3621AD710E100265DE1 /* LaunchScreen.xib in Resources */,
+				7F2FB35F1AD710E100265DE1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F2FB34A1AD710E100265DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE469241ADC56CE008617F5 /* SerialConfigViewController.m in Sources */,
+				7F2FB35A1AD710E100265DE1 /* MainViewController.m in Sources */,
+				7F2FB3571AD710E100265DE1 /* AppDelegate.m in Sources */,
+				7F2FB3541AD710E100265DE1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F2FB35B1AD710E100265DE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F2FB35C1AD710E100265DE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F2FB3601AD710E100265DE1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F2FB3611AD710E100265DE1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F2FB36F1AD710E100265DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F2FB3701AD710E100265DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F2FB3721AD710E100265DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RedparkSerialDemo/RedparkSerialDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					../inc,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/RedparkSerialDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					../lib,
+					"\"$(SRCROOT)/../lib\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vetriselvi.Redpark-Serial-Demo";
+				PRODUCT_NAME = "Redpark Serial Demo";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7F2FB3731AD710E100265DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RedparkSerialDemo/RedparkSerialDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					../inc,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/RedparkSerialDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					../lib,
+					"\"$(SRCROOT)/../lib\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vetriselvi.Redpark-Serial-Demo";
+				PRODUCT_NAME = "Redpark Serial Demo";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F2FB3491AD710E100265DE1 /* Build configuration list for PBXProject "Redpark Serial Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2FB36F1AD710E100265DE1 /* Debug */,
+				7F2FB3701AD710E100265DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2FB3711AD710E100265DE1 /* Build configuration list for PBXNativeTarget "Redpark Serial Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2FB3721AD710E100265DE1 /* Debug */,
+				7F2FB3731AD710E100265DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F2FB3461AD710E100265DE1 /* Project object */;
+}
